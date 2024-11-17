@@ -12,7 +12,7 @@ const App = () => {
             <img
               src={homa}
               alt={`Homa Image ${index + 1}`}
-              className='object-cover w-96 h-96 rounded-lg shadow-lg'
+              className='object-cover w-96 h-96 rounded-lg shadow-lg hover:scale-105 transition-all duration-300 ease-in-out'
             />
           </div>
         ))}
